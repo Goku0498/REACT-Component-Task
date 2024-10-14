@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "link": "fa-regular fa-window-restore",
+    "title": "Fully Responsive",
+    "description": "This theme will look great on any device, no matter the size!",
+    "type": "icon"
+  },
+  {
+    "id": 2,
+    "link": "fa-solid fa-layer-group",
+    "title": "Bootstrap 5 Ready",
+    "description": "Featuring the latest build of the new Bootstrap 5 framework!",
+    "type": "icon"
+  },
+  {
+    "id": 3,
+    "link": "fa-solid fa-laptop-code",
+    "title": "Easy to Use",
+    "description": "Ready to use with your own content, or customize the source files!",
+    "type": "icon"
+  }
+]

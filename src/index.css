@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-bar > p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 350px;
+  color: white;
+}
+
+.sign-up-big {
+  text-align: center;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-small {
+  text-align: center;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-sign-up {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-sign-up > input {
+  font-size: 20px;
+  height: 50px;
+  border: none;
+  width: 450px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.email-sign-up > button {
+  height: 50px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.review {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.review > h1 {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 100px;
+  justify-content: center;
+}
+
+.card-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+}
+
+.card-icon > i {
+  font-size: 75px;
+  color: rgb(44, 115, 236);
+  text-align: center;
+}
+
+.card-icon > h2 {
+  font-size: 40px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.card-icon > p {
+  color: grey;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 20px;
+}
+
+.card-img {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 0.85fr;
+  padding: 15px;
+  width: 300px;
+  place-items: center;
+}
+
+.card-img > img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  justify-items: center;
+  align-self: center;
+  margin: 5px;
+}
+
+.card-img > h2 {
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.card-img > p {
+  margin: 0;
+  color: grey;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content-details {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-right,
+.content-left {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.content-right {
+  justify-content: space-between;
+}
+
+.content-left {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.content-right > img,
+.content-left > img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.bottom-bar {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottom-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.bottom-icon {
+  color: rgb(0, 104, 202);
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  gap: 20px;
+}
+
+@media (max-width: 486px) {
+  .bottom-bar {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
